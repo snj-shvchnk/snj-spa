@@ -1,0 +1,28 @@
+.apiDevWrapper {
+    padding: 32px;
+    display: grid;
+    height: 100vh;
+    overflow: hidden;
+    grid-template-rows: 200px 1fr;
+    box-sizing: border-box;
+}
+
+.apiDevResponce {
+    background-color: #eefeff;
+    padding: 24px;
+    font-size: 80%;
+    overflow: scroll;
+    border-radius: 5px;
+    box-shadow: -2px -5px 15px 2px rgba(0,0,0,0.05);
+    border: 1px solid #fff;
+}
+
+.devForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.devWrapper {
+    width: 100%;
+    min-height: 100px;
+}

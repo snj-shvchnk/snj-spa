@@ -1,0 +1,8 @@
+.side-nav-item:not(.selected) .nav-active-icon,
+.side-nav-item.selected .nav-icon:not(.nav-active-icon) {
+    display: none;
+}
+
+.side-nav-item.selected {
+    background-color: rgba(103, 174, 149, 0.4);
+}

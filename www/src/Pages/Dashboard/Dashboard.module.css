@@ -1,0 +1,46 @@
+.dashboard {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 1fr;
+    grid-gap: 33px;
+    padding: 35px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.dashboardGrid {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 33px;
+}
+
+.dashboard h1 {
+    text-align: center;
+}
+
+.dashboard h2 {
+    text-align: left;
+    color: #666;
+}
+
+.dashboard .data {
+    color: #333;
+}
+
+.dashboard .totals {
+    color: #444;
+}
+
+.totals {
+    font-size: 13px;
+}
+
+.totals b {
+    font-weight: bold;
+}
+
+.totals span {
+    color: #333;
+    font-weight: 100;
+}
